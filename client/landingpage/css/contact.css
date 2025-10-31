@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #000;
+  color: #fff;
+
+}
+
+/*homepage*/
+.homepage{
+    display: flex;
+    flex-wrap: wrap;
+}
+.homepage h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    text-align: start;
+    font-style: italic;
+    margin-left: 2rem;
+}
+.homepage p{
+    padding: 5px;
+    color: whitesmoke;
+}
+#homepage{
+    padding: 20px 10px;
+}
+.hompage-contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#homepagebg{
+    width: 100%;
+    max-width: 100vw;
+    height: 400px;
+}
+#homepagebg img{
+    width: 100%;
+    transform: translateX(270px);
+    height: 100%;
+}
+#map {
+  height: 300px;
+  width: 100%;
+  border: 1px solid;
+}
+#dot{
+    color: yellow;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.contacts{
+  display: flex;
+  margin-top: 2rem;
+}
+.contacts h4{
+    font-style: italic;
+    font-weight: 400;
+    font-size: small;
+}
+.contacts #star{
+    color: red;
+}
+#address{
+    max-width: 600px;
+    width: 100%;
+    margin: 0;
+    height: 500px;
+}
+#address img{
+    width: 100%;
+    height: 100%;
+    padding: 10px 30px;
+    margin: 0;
+}
+.end{
+    display: block;
+    margin-top: 2rem;
+}
+.end h1{
+    text-align: start;
+    font-style: italic;
+    text-transform: uppercase;
+}
+#title-head, #sub-title{
+    margin-left: 1rem;
+    color: whitesmoke;
+}
+.address{
+    display: flex;
+    padding: 20px 10px;
+    max-width: 600px;
+    width: 100%;
+    gap: 40px;
+    flex-direction: column;
+}
+.person{
+    display: block;
+    padding: 0;
+}
+.person h1{
+    text-align: start;
+    padding: 0;
+    margin: 0;
+}
+.person h2{
+    text-align: start;
+    padding: 0;
+    margin: 0;   
+}
+.person h3{
+    text-align: start;
+    padding: 0;
+    margin: 0;
+}
+/*form*/
+.form-container {
+  padding: 30px;
+  margin-left: 1rem;
+  max-width: 600px;
+  width: 100%;
+}
+#contactForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+input, select, textarea {
+  padding: 15px 20px;
+  background-color: transparent;
+  color: #fff;
+  border: 0.06px solid #ccc;
+  border-style: inset;
+}
+label{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+select{
+    width: 96%;
+}
+input, textarea{
+    width: 94%;
+}
+#know{
+    height: 100px;
+}
+#comment{
+    height: 200px;
+}
+input:focus, select:focus, textarea:focus {
+  outline: 1px solid #0f0;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 30px;
+  border: none;
+  width: 200px;
+  background: gray;
+  color: white;
+  line-height: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #00ff99;
+}
+
+.check {
+  margin-top: 10px;
+  font-size: 14px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+#checkbox{
+    font-size: 14px;
+}
+#msg {
+  margin-top: 10px;
+  text-align: center;
+  color: #0f0;
+}
+/*form*/
+/*footer*/
+.section-border{  
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1); /* faint white/gray */
+}
+.footer{
+    display: flex;
+    align-items: start;
+    margin-top: 2rem;
+    justify-content: start;
+}
+/*Privacy stylings*/
+.start{
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 10px;
+    gap: 10px;
+}
+.start h2, h3, h4{
+    text-align: start;
+    justify-content: center;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+.start p{
+    margin-left: 2rem;
+}
+.start ul{
+    margin-left: 2rem;
+    display: block;
+}
+.start ul li{
+    list-style: none;
+}
+
+/*Cookies*/
+.start a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.start ul li ul{
+    display: block;
+    gap: 10px;
+}
+.start ul li ul li{
+    list-style: none;
+    margin-left: 2rem;
+}
+.start ul li .sub{
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+/*mobile responsiveness*/
